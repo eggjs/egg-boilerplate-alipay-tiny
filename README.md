@@ -1,5 +1,6 @@
 # egg-boilerplate-alipay-tiny
 
+支付宝小程序服务端脚手架
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
