@@ -4,6 +4,7 @@ node_js:
   - '8'
 before_install:
   - mysql -e 'CREATE DATABASE IF NOT EXISTS unittest;'
+  - echo "USE mysql;\nUPDATE user SET password=PASSWORD('miniappmysql123') WHERE user='root';\nFLUSH PRIVILEGES;\n" | mysql -u root
 install:
   - npm i npminstall && npminstall
 script:
