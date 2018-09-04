@@ -27,5 +27,11 @@ module.exports = appInfo => {
     agent: false,
   };
 
+  config.mongoose = {
+    client: {
+      url: 'mongodb://127.0.0.1/example',
+    },
+  };
+
   return config;
 };
