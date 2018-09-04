@@ -20,7 +20,7 @@ module.exports = appInfo => {
       host: '127.0.0.1',
       port: '3306',
       user: 'root',
-      password: 'miniappmysql123',
+      password: 'miniapp123',
       database: '',
     },
     app: true,
@@ -29,7 +29,7 @@ module.exports = appInfo => {
 
   config.mongoose = {
     client: {
-      url: 'mongodb://127.0.0.1/example',
+      url: 'mongodb://admin:miniapp123@127.0.0.1/example',
     },
   };
 
