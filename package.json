@@ -1,6 +1,6 @@
 {
   "name": "egg-boilerplate-alipay-tiny",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "支付宝小程序服务端脚手架",
   "scripts": {
     "autod": "autod",

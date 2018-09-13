@@ -1,4 +1,10 @@
 
+1.2.0 / 2018-09-13
+==================
+
+**features**
+  * [[`2a18ce6`](http://github.com/eggjs/egg-boilerplate-alipay-tiny/commit/2a18ce66f0ac7c020f49df8a2f81d8ab0fc6ab35)] - feat: add nginx file (#3) (Haoliang Gao <<sakura9515@gmail.com>>)
+
 1.1.0 / 2018-09-04
 ==================
 
